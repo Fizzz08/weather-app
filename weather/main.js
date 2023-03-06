@@ -102,8 +102,8 @@ var weekday = ["Sunday", "  Monday  ", "Tuesday", "Wednesday", "Thursday", "Frid
 
 
 function CheckDay(day){
-    if(day + d.getDay() > 7){
-        return day + d.getDay() - 8;
+    if(day + d.getDay() > 6){
+        return day + d.getDay() - 7;
     }
     else{
         return day + d.getDay();
